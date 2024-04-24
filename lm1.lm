@@ -1,0 +1,81 @@
+Language model created by QuickLM on Tue Apr 23 10:02:50 EDT 2024
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 14 sentences and 16 words
+
+\data\
+ngram 1=16
+ngram 2=28
+ngram 3=14
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.9243 CHATGPT -0.2218
+-1.9243 DRIVE -0.2218
+-1.9243 FACEBOOK -0.2218
+-1.9243 GEMINI -0.2218
+-1.9243 GITHUB -0.2218
+-1.9243 GMAIL -0.2218
+-1.9243 GOOGLE -0.2218
+-1.9243 HACKERRANK -0.2218
+-1.9243 NOTEPAD -0.2218
+-1.9243 OPEN -0.2218
+-1.9243 POSTMAN -0.2218
+-1.9243 VSCODE -0.2218
+-1.9243 WHATSAPP -0.2218
+-1.9243 YOUTUBE -0.2218
+
+\2-grams:
+-1.4472 <s> CHATGPT 0.0000
+-1.4472 <s> DRIVE 0.0000
+-1.4472 <s> FACEBOOK 0.0000
+-1.4472 <s> GEMINI 0.0000
+-1.4472 <s> GITHUB 0.0000
+-1.4472 <s> GMAIL 0.0000
+-1.4472 <s> GOOGLE 0.0000
+-1.4472 <s> HACKERRANK 0.0000
+-1.4472 <s> NOTEPAD 0.0000
+-1.4472 <s> OPEN 0.0000
+-1.4472 <s> POSTMAN 0.0000
+-1.4472 <s> VSCODE 0.0000
+-1.4472 <s> WHATSAPP 0.0000
+-1.4472 <s> YOUTUBE 0.0000
+-0.3010 CHATGPT </s> -0.3010
+-0.3010 DRIVE </s> -0.3010
+-0.3010 FACEBOOK </s> -0.3010
+-0.3010 GEMINI </s> -0.3010
+-0.3010 GITHUB </s> -0.3010
+-0.3010 GMAIL </s> -0.3010
+-0.3010 GOOGLE </s> -0.3010
+-0.3010 HACKERRANK </s> -0.3010
+-0.3010 NOTEPAD </s> -0.3010
+-0.3010 OPEN </s> -0.3010
+-0.3010 POSTMAN </s> -0.3010
+-0.3010 VSCODE </s> -0.3010
+-0.3010 WHATSAPP </s> -0.3010
+-0.3010 YOUTUBE </s> -0.3010
+
+\3-grams:
+-0.3010 <s> CHATGPT </s>
+-0.3010 <s> DRIVE </s>
+-0.3010 <s> FACEBOOK </s>
+-0.3010 <s> GEMINI </s>
+-0.3010 <s> GITHUB </s>
+-0.3010 <s> GMAIL </s>
+-0.3010 <s> GOOGLE </s>
+-0.3010 <s> HACKERRANK </s>
+-0.3010 <s> NOTEPAD </s>
+-0.3010 <s> OPEN </s>
+-0.3010 <s> POSTMAN </s>
+-0.3010 <s> VSCODE </s>
+-0.3010 <s> WHATSAPP </s>
+-0.3010 <s> YOUTUBE </s>
+
+\end\

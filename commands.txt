@@ -1,0 +1,18 @@
+open
+google
+youtube
+github
+facebook
+hackerrank
+gmail
+drive
+whatsapp
+
+
+
+
+  /*
+ Only these commands will work in this voice assistant
+ as the 'dic' and 'lm' files of only these two commands have been
+ included in the project
+   */
